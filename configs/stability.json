@@ -1,0 +1,16 @@
+{
+  "experiment": "stability",
+  "settings": ["linear", "nonlinear"],
+  "sample_sizes": [2000, 4000, 8000],
+  "misspecifications": ["mu", "c", "a"],
+  "repetitions": 1000,
+  "seed_start": 400000,
+  "c_h": {"undersmooth": 1.0, "regular": 2.0},
+  "b_over_h": 1.25,
+  "grid_size": 201,
+  "integration_grid": 1601,
+  "bootstrap_draws": 0,
+  "confidence_bands": false,
+  "include_conventional": false,
+  "device": "cuda"
+}

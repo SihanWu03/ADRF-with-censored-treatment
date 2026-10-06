@@ -1,0 +1,24 @@
+{
+  "calibration_seed": 917541,
+  "analysis_seed": 20260914,
+  "n": 4000,
+  "device": "cuda:0",
+  "torch_threads": 4,
+  "folds": 2,
+  "a_min": 0.8,
+  "a_max": 1.8,
+  "grid_size": 201,
+  "integration_grid": 1601,
+  "c_h": 2.0,
+  "bandwidth_power": 0.2,
+  "b_over_h": 1.25,
+  "alpha": 0.05,
+  "display_dose_range": [16.0, 27.5],
+  "nuisance": {
+    "epochs": 400,
+    "patience": 45,
+    "learning_rate": 0.01,
+    "kernel_lengths": [0.5, 1.0, 2.0, 4.0, 8.0],
+    "kernel_ridges": [0.00001, 0.0001, 0.001, 0.01, 0.1]
+  }
+}
